@@ -1,0 +1,29 @@
+    /* Base button style */
+    button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    /* Hover effect */
+    button:hover {
+        background-color: #2980b9;
+    }
+    
+    /* Active (click) effect */
+    button:active {
+        background-color: #1f618d;
+    }
+    
+    /* Focus effect */
+    button:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(52, 152, 219, 1);
+    }
+    
