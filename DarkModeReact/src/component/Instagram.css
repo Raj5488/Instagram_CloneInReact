@@ -1,0 +1,52 @@
+    /* LoginSignup.css */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #fafafa;
+    }
+    
+    .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    
+    .form {
+        border-radius: 20px ;
+        padding: 50px 20px; 
+        box-shadow:3px 4px 3px 2px rgb(132, 129, 129);
+        border: 2px solid rgb(113, 102, 102);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+    
+    .input-field {
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.3rem 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .submit-button {
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        background-color: #3897f0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .switch-link {
+        color: #3897f0;
+        margin-left: 0.2rem;
+        cursor: pointer;
+    }
+    
